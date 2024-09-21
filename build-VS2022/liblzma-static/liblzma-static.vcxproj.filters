@@ -90,13 +90,7 @@
     <ClCompile Include="..\..\src\liblzma\check\crc32_fast.c">
       <Filter>Source Files\liblzma\check</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\liblzma\check\crc32_table.c">
-      <Filter>Source Files\liblzma\check</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\liblzma\check\crc64_fast.c">
-      <Filter>Source Files\liblzma\check</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\liblzma\check\crc64_table.c">
       <Filter>Source Files\liblzma\check</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\liblzma\check\sha256.c">
@@ -401,7 +395,7 @@
     <ClInclude Include="..\..\src\liblzma\check\crc64_table_le.h">
       <Filter>Header Files\liblzma\check</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\liblzma\check\crc_macros.h">
+    <ClInclude Include="..\..\src\liblzma\check\crc_common.h">
       <Filter>Header Files\liblzma\check</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\liblzma\common\alone_decoder.h">
