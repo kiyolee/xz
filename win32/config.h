@@ -1,3 +1,4 @@
+/* SPDX-License-Identifier: 0BSD */
 /* config.h for compiling with MSVC */
 
 /* Prefix for symbols exported by tuklib_*.c files */
@@ -128,7 +129,7 @@
    declarations. */
 #define HAVE_VISIBILITY 0
 
-/* Define to 1 if the system has the type `_Bool'. */
+/* Define to 1 if the system has the type '_Bool'. */
 #if defined(_MSC_VER) && _MSC_VER >= 1800
 #define HAVE__BOOL 1
 #endif
@@ -150,15 +151,16 @@
 #define NDEBUG 1
 #endif
 
+/* Define to the address where bug reports for this package should be sent. */
+#define PACKAGE_BUGREPORT "xz@tukaani.org"
+
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "XZ Utils"
-
-#define PACKAGE_BUGREPORT "xz@tukaani.org"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL "https://tukaani.org/xz/"
 
-/* The size of `size_t', as computed by sizeof. */
+/* The size of 'size_t', as computed by sizeof. */
 #ifdef _WIN64
 #define SIZEOF_SIZE_T 8
 #else
