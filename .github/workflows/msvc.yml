@@ -97,19 +97,6 @@ jobs:
           -T ClangCL
           -A x64
           -B build-clangcl-x64
-          -DCMAKE_C_FLAGS="
-            -Wno-cast-align
-            -Wno-cast-qual
-            -Wno-covered-switch-default
-            -Wno-declaration-after-statement
-            -Wno-deprecated-declarations
-            -Wno-disabled-macro-expansion
-            -Wno-nonportable-system-include-path
-            -Wno-overlength-strings
-            -Wno-pre-c11-compat
-            -Wno-reserved-identifier
-            -Wno-unsafe-buffer-usage
-            -Wno-used-but-marked-unused"
 
       - name: Build ClangCL x64 Debug
         run: >
